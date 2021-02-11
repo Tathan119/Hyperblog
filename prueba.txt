@@ -11,3 +11,42 @@ tenemos una prueba de texto de vida y obra
 
 quiero ser un desarrollador web
 
+>>>Como usar git<<<
+
+inicio y configuracion de git
+
+    git init
+    
+    git config
+    git config --list
+    git config --list --show-origin
+    git config --global user.name "Jonathan Sanchez"
+    git config --global user.email "jonathanjass@gmail.com"
+
+uso de git
+
+    git status
+    git add
+    git commit -m
+    git log //historial del repositirio o commit
+    git log --stat //historial del repositirio o commit con los cambios nuevos
+
+    git show [id] [archivo] // muestra los cambios realizados en el commit
+    git checkout [id] [archivo] // deja mirar los archivos desde las 
+                                versiones en el repositorio
+
+    git rm --cached // Elimina los archivos del área de Staging y del 
+                    // próximo commit pero los mantiene en nuestro disco duro.
+    git rm --force  // Elimina los archivos de Git y del disco duro. pero queda
+                    // en el registro de git
+
+    git reset --soft // Borramos todo el historial y los registros de Git pero 
+                     // guardamos los cambios que tengamos en Staging, así podemos 
+                     // aplicar las últimas actualizaciones a un nuevo commit.
+                     
+    git reset --hard // borra todo
+
+    git reset HEAD  // Saca los archivos del área de Staging al unstage
+
+ 
+
