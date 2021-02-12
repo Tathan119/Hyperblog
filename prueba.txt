@@ -55,7 +55,7 @@ A la espera de mas comandos
 
 
 
-
+Esto esta muy mal y toca borrarlo
 
 
 Algunos comandos que pueden ayudar cuando colaboren con proyectos muy grandes de github:
