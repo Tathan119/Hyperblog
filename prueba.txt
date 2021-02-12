@@ -29,10 +29,20 @@ uso de git
     git add
     git commit -m
     git push // para enviar del repositorio local al repositorio remoto 
+    git fetch //trae del repositorio remoto al local
+              // pero no lo copea en el unstage o directorio de trabajo- la carpeta pues
+    git merge //fusiona el commit que se trajo del repositorio remoto al local
+    git pull // hace lo de fetch y merge al tiempo
+        
+    git clone url_del_servidor_remoto //Nos permite descargar los archivos de la última 
+                                        versión de la rama principal y todo el historial 
+                                        de cambios en la carpeta .git.
+ 
     git log //historial del repositirio o commit
     git log --stat //historial del repositirio o commit con los cambios nuevos
 
     git show [id] [archivo] // muestra los cambios realizados en el commit
+    git diff [idantiguo] [idreciente] [archivo] // compara las vesiones del archivo
     git checkout [id] [archivo] // deja mirar los archivos desde las 
                                 versiones en el repositorio
 
@@ -55,7 +65,7 @@ A la espera de mas comandos
 
 
 
-Esto esta muy mal y toca borrarlo
+
 
 
 Algunos comandos que pueden ayudar cuando colaboren con proyectos muy grandes de github:
