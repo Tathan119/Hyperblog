@@ -38,7 +38,9 @@ uso de git
     git clone url_del_servidor_remoto //Nos permite descargar los archivos de la última 
                                         versión de la rama principal y todo el historial 
                                         de cambios en la carpeta .git.
-    git branch [nobre de rama] // cea ramas del proyecto
+    
+    git branch  // verifica los nombres de las ramas del proyecto
+    git branch [nobre de rama] // crea ramas del proyecto
     git log //historial del repositirio o commit
     git log --stat //historial del repositirio o commit con los cambios nuevos
 
