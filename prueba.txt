@@ -27,7 +27,8 @@ uso de git
 
     git status
     git add
-    git commit -m
+    git commit -m ""
+    git commit -am "" // hace el comit y el add al tiempo
     git push // para enviar del repositorio local al repositorio remoto 
     git fetch //trae del repositorio remoto al local
               // pero no lo copea en el unstage o directorio de trabajo- la carpeta pues
