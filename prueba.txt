@@ -44,8 +44,9 @@ uso de git
 
     git show [id] [archivo] // muestra los cambios realizados en el commit
     git diff [id-antiguo] [id-reciente] [archivo] // compara las vesiones del archivo
-    git checkout [id] [archivo] // deja mirar los archivos desde las 
-                                versiones en el repositorio
+    git checkout [id] [archivo]     // deja abrir los archivos desde las 
+    git checkout [branch o rama]    versiones en el repositorio, tambien permite el ambio 
+                                    de ramas par ubicarnos desde el HEAD
 
     git rm --cached // Elimina los archivos del área de Staging y del 
                     // próximo commit pero los mantiene en nuestro disco duro.
