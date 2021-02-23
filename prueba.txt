@@ -64,6 +64,17 @@ uso de git
     git reset HEAD  // Saca los archivos del área de Staging al unstage
 
  
+github
+    git remote add origin [link de github clone https,ssh] 
+                //se crea la conexion degit con github
+    git remote  //ver que conexion hay
+    git remote -v   //verval muestra la descarga y el envio deorigin como 
+                    repositorio online
+    git push [nombre_repositorio github] master  // abre la conexion e inicio de sesion
+    git pull [nombre_repositorio github] main //                   
+    git pull origin main --allow-unrelated-histories //
+
+
 A la espera de mas comandos
 
 
