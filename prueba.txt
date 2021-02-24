@@ -68,11 +68,13 @@ github
     git remote add origin [link de github clone https,ssh] 
                 //se crea la conexion degit con github
     git remote  //ver que conexion hay
-    git remote -v   //verval muestra la descarga y el envio deorigin como 
+    git remote -v   //verval muestra la descarga y el envio de origin como 
                     repositorio online
+    git remote set-url [repositorio]    // cambio del link de conexion
     git push [nombre_repositorio github] master  // abre la conexion e inicio de sesion
+    git pull    //trae la ultima vercion del github al local
     git pull [nombre_repositorio github] main //                   
-    git pull origin main --allow-unrelated-histories //
+    git pull origin main --allow-unrelated-histories // forzar el pull
 
 
 A la espera de mas comandos
